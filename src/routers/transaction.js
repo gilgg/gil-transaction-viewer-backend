@@ -58,7 +58,6 @@ router.post("/transactions/new", async (req, res) => {
     const transactions = await Transaction.find().populate("customer");
     res.send(transactions.reverse());
   } catch (err) {
-    console.log(err.message);
     res.status(500).send(err.message);
   }
 });
@@ -88,7 +87,6 @@ router.patch("/transactions/edit/:id", async (req, res) => {
     const transactions = await Transaction.find().populate("customer");
     res.send(transactions.reverse());
   } catch (err) {
-    console.log(err.message);
     res.status(500).send(err.message);
   }
 });
@@ -99,7 +97,6 @@ router.delete("/transactions/:id", async (req, res) => {
     const transactions = await Transaction.find().populate("customer");
     res.send(transactions.reverse());
   } catch (err) {
-    console.log(err.message);
     res.status(500).send(err.message);
   }
 });
