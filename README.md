@@ -17,7 +17,7 @@ If you'd like, you can make use of pagination and limit the results on your page
 
 > **You can take a look at the backend repo [here](https://github.com/gilgg/gil-transaction-viewer-frontend)**
 
-> **Go to [Website](https://gil-clients-database.netlify.app/)**
+> **Go to [Website](https://gil-transactions-viewer.netlify.app/)**
 
 <br />
 
